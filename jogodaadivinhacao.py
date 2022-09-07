@@ -25,7 +25,7 @@ def jogar_adivinhacao():
 
     for rodada in range (1, total_de_tentativas + 1):
         print('tentativa {0} de {1}'.format(rodada, total_de_tentativas))
-        numero = input('Digite sua alternativa para numero secreto: ')
+        numero = input('Digite sua alternativa para número secreto: ')
         numero = int(numero)
 
         if(numero > 100 or numero < 1):
